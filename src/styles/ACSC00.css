@@ -1,0 +1,40 @@
+.ACSC00 {
+  width: 100%;
+}
+
+.ACSC00 .ACSC00__bg {
+  width: 100%;
+  height: 100vh;
+  background-color: rgb(196, 174, 174);
+  background-image: url("../assets/images/bg.jpg");
+  background-size: cover;
+  position: relative;
+}
+
+.ACSC00 .ACSC00__bg .ACSC00__bg__desc {
+  color: #fff;
+  margin-top: 30%;
+  margin-left: 10%;
+  position: absolute;
+}
+
+.ACSC00 .ACSC00__bg .ACSC00__bg__desc h2 {
+  font-size: 60px;
+  margin-bottom: 20px;
+  text-shadow: 5px 5px 4px #0b0b0b;
+}
+
+.ACSC00 .ACSC00__bg .ACSC00__bg__desc p {
+  font-size: 25px;
+  margin-bottom: 5px;
+  text-shadow: 9px 9px 5px #0b0b0b;
+  font-style: italic;
+}
+
+.ACSC00__bg__arrow svg {
+  color: #fff;
+  font-size: 120px;
+  position: absolute;
+  margin-left: 47%;
+  margin-top: 40%;
+}

@@ -1,0 +1,12 @@
+.app {
+  width: 100%;
+}
+
+.app .app__header {
+  width: 100%;
+  position: absolute;
+  z-index: 99;
+  top: 0;
+  left: 0;
+  background-color: rgba(2, 2, 2, 0.6);
+}
