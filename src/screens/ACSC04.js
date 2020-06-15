@@ -1,10 +1,11 @@
 import React from "react";
+import Lnb from "../components/Lnb";
 
 class ACSC04 extends React.Component {
   render() {
     return (
       <div>
-        <div>ACSC04 PAGE</div>
+        <Lnb title="Contect" column="HOME > Contect" link="/" />
       </div>
     );
   }

@@ -5,7 +5,7 @@
 .ACSC00 .ACSC00__bg {
   width: 100%;
   height: 100vh;
-  background-color: rgb(196, 174, 174);
+  background-color: rosybrown;
   background-image: url("../assets/images/bg.jpg");
   background-size: cover;
   position: relative;
@@ -13,28 +13,165 @@
 
 .ACSC00 .ACSC00__bg .ACSC00__bg__desc {
   color: #fff;
-  margin-top: 30%;
-  margin-left: 10%;
+  margin-top: 340px;
+  margin-left: 60px;
   position: absolute;
 }
 
-.ACSC00 .ACSC00__bg .ACSC00__bg__desc h2 {
-  font-size: 60px;
-  margin-bottom: 20px;
-  text-shadow: 5px 5px 4px #0b0b0b;
+.ACSC00__bg__desc h2 {
+  font-size: 35px;
+  text-shadow: 3px 3px 3px #0b0b0b;
 }
 
-.ACSC00 .ACSC00__bg .ACSC00__bg__desc p {
-  font-size: 25px;
-  margin-bottom: 5px;
-  text-shadow: 9px 9px 5px #0b0b0b;
+.ACSC00__bg__desc p {
+  margin: 10px;
+  text-shadow: 3px 3px 3px #0b0b0b;
   font-style: italic;
 }
 
 .ACSC00__bg__arrow svg {
   color: #fff;
-  font-size: 120px;
+  font-size: 90px;
   position: absolute;
-  margin-left: 47%;
+  margin-left: 46%;
   margin-top: 40%;
+}
+
+.ACSC00 .ACSC00__contents {
+  margin-top: 200px;
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  border-bottom: 1px solid #777;
+  margin-bottom: 200px;
+}
+
+.ACSC00 .ACSC00__contents .ACSC00__contents__btn {
+  border: none;
+  background: none;
+  outline: none;
+  width: 160px;
+  height: 40px;
+  border: 1px solid #eee;
+  color: #777;
+  border-radius: 10px;
+  margin: 10px;
+  box-shadow: 2px 2px 2px #eee;
+  cursor: pointer;
+}
+
+.ACSC00 .ACSC00__contents .ACSC00__contents__btn.active {
+  border: none;
+  background: none;
+  outline: none;
+  width: 160px;
+  height: 40px;
+  border: 1px solid #eee;
+  color: #eee;
+  background-color: #0b0b0b;
+  border-radius: 10px;
+  margin: 10px;
+  box-shadow: 2px 2px 2px #eee;
+  cursor: pointer;
+}
+
+.MainComponent1 {
+  width: 100%;
+  height: 240px;
+}
+
+.MainComponent2 {
+  width: 100%;
+  height: 240px;
+}
+
+@media (max-width: 1025px) {
+  .ACSC00__bg__arrow svg {
+    color: #fff;
+    font-size: 90px;
+    position: absolute;
+    margin-left: 46%;
+    margin-top: 50%;
+  }
+
+  .ACSCOO__bg__desc h2 {
+    font-size: 60px;
+    margin-bottom: 5px;
+    text-shadow: 3px 3px 3px #0b0b0b;
+  }
+
+  .ACSCOO__bg__desc p {
+    font-size: 26px;
+    margin-bottom: 5px;
+    text-shadow: 3px 3px 3px #0b0b0b;
+    font-style: italic;
+  }
+}
+
+@media (max-width: 875px) {
+  .ACSC00__bg__arrow svg {
+    color: #fff;
+    font-size: 90px;
+    position: absolute;
+    margin-left: 46%;
+    margin-top: 60%;
+  }
+  .ACSCOO__bg__desc h2 {
+    font-size: 60px;
+    margin-bottom: 5px;
+    text-shadow: 3px 3px 3px #0b0b0b;
+  }
+
+  .ACSCOO__bg__desc p {
+    font-size: 26px;
+    margin-bottom: 5px;
+    text-shadow: 3px 3px 3px #0b0b0b;
+    font-style: italic;
+  }
+}
+
+@media (max-width: 624px) {
+  .ACSC00__bg__arrow svg {
+    color: #fff;
+    font-size: 90px;
+    position: absolute;
+    margin-left: 46%;
+    margin-top: 85%;
+  }
+  .ACSCOO__bg__desc h2 {
+    font-size: 60px;
+    margin-bottom: 5px;
+    text-shadow: 3px 3px 3px #0b0b0b;
+  }
+
+  .ACSCOO__bg__desc p {
+    font-size: 26px;
+    margin-bottom: 5px;
+    text-shadow: 3px 3px 3px #0b0b0b;
+    font-style: italic;
+  }
+}
+
+@media (max-width: 364px) {
+  .ACSC00__bg__arrow svg {
+    color: #fff;
+    font-size: 90px;
+    position: absolute;
+    margin-left: 46%;
+    margin-top: 160%;
+  }
+
+  .ACSC00__bg__desc h2 {
+    font-size: 24px;
+    text-shadow: 3px 3px 3px #0b0b0b;
+  }
+
+  .ACSCOO__bg__desc p {
+    font-size: 26px;
+    margin-bottom: 5px;
+    text-shadow: 3px 3px 3px #0b0b0b;
+    font-style: italic;
+  }
 }
