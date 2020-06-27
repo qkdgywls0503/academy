@@ -1,0 +1,43 @@
+.slick__Box {
+  width: 100%;
+  height: 200px;
+}
+.slick__Box .slick__Box__1 {
+  width: 100%;
+  height: 100%;
+  background-color: palevioletred;
+}
+
+.slick__Box .slick__Box__2 {
+  width: 100%;
+  height: 100%;
+  background-color: orange;
+}
+
+.slick__Box .slick__Box__3 {
+  width: 100%;
+  height: 100%;
+  background-color: yellow;
+}
+
+.slick__Box .slick__Box__4 {
+  width: 100%;
+  height: 100%;
+  background-color: green;
+}
+
+.slick__Box .slick__Box__5 {
+  width: 100%;
+  height: 100%;
+  background-color: blue;
+}
+
+.slick__Box .slick__Box__6 {
+  width: 100%;
+  height: 100%;
+  background-color: purple;
+}
+
+.controller {
+  margin-top: 50px;
+}
